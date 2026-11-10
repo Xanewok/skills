@@ -54,5 +54,4 @@ overwrite the other.
 - `skills/vendored/asd-ste100/`: MIT, © 2026 Dustin Yuchen Teng, from
   [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill). Its `LICENSE` is
   kept verbatim in that directory.
-- Everything else (`skills/general/`, `bin/` and these documents): no licence chosen yet. Until a
-  `LICENSE` file is added at the root, default copyright applies.
+- Everything else (`skills/general/`, `bin/` and these documents): MIT, see `LICENSE`.
