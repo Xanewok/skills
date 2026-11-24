@@ -70,7 +70,9 @@ control that looks like one, a product named with its size, the price by the act
 form fields stay recognisable; departing from one needs a reason from this offer.
 
 For any effect beyond a hover, read `references/motion.md` and show whoever owns the page the
-options with their costs before building one.
+options with their costs before building one. To show an option of any kind, shoot it: apply the
+variant's styles in the browser for the screenshot only, and commit the one that is chosen. No
+variant switch goes into the page.
 
 ## 4. Build
 
@@ -113,6 +115,11 @@ marked placeholder that cannot reach the live page: the template leaves it out, 
 on it. Lay out for real word lengths in the page's language, and never truncate a product or brand
 name.
 
+**A heading that must hold one line needs slack.** Size it from its container (`min(8cqi, 4rem)`, on
+a parent with `container-type: inline-size`), not from the viewport, and check that a `clamp()` floor is not larger than a narrow screen allows.
+Then try it in the fallback face and with text scaled up by a tenth or more: a line that only just
+fits will wrap for someone.
+
 **Honesty is not negotiable.** No invented urgency, scarcity, counter, rating, review, quote,
 logo, "bestseller" badge or struck-through price. A number on the page comes from data the shop
 holds. A slot with nothing true to put in it stays empty or is left out. Read
@@ -130,16 +137,19 @@ A clean build says nothing about how the page looks.
    in-app height, then the whole page a screen at a time, then the desktop. Shoot every page state,
    each step of any motion, and once with reduced motion. Check that the shots show the whole
    page: where the page scrolls inside an element and not the document, a full-page capture shows
-   one screen. Look at every shot yourself and fix what one look shows. Use the action for real
-   once: submit it wrong, then right, and shoot the error and the success.
+   one screen. Look at every shot yourself and fix what one look shows. Shoot the action's
+   error and success states. Submit it for real only where that writes no live data: a preview
+   wired to the real store creates real customers and orders. Otherwise drive the page into each
+   state in the browser without sending, and report the round trip as unverified.
 2. **Hand the shots to a separate critic**: a fresh agent that did not build the page, from another
-   model family when one is available. Give it the shots, the five direction lines,
-   `references/critic.md`, `references/tells.md` and any project rules. Do not give it your plan,
+   model family when one is available. Give it the shots, the five direction lines, the brand tokens
+   the page uses, `references/critic.md`, `references/tells.md` and any project rules. Do not give it your plan,
    your reasoning or your opinion of the result. A builder grading its own page skews positive.
 3. **Fix the defects it ranks highest, then shoot again.** Most of the gain comes in the first
    round, so stop after the second; a third is for motion only. Commit each round. Go back to the
    earlier one when a round adds a blocking defect, breaks something that worked or leaves more
-   defects than it fixed, never because a score moved. Do not mix bug fixes into a polish round.
+   defects than it fixed, never because a score moved. Do not mix bug fixes into a polish round. Stop early
+   when what remains needs a person: copy, a fact, a taste call.
 4. **Before finishing, remove one thing.**
 
 A model critic finds defects reliably: overlap, clipped text, weak contrast, a missing action, a

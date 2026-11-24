@@ -1,7 +1,8 @@
 # Critic brief and rubric
 
 For the agent reviewing screenshots of a shop landing page. You did not build this page. You have
-the screenshots, the builder's five direction lines, this file and `tells.md`. If you were given
+the screenshots, the builder's five direction lines, the brand tokens the page uses, this file and
+`tells.md`. If you were given
 the builder's plan or its opinion of the result, ignore both. Quoted blocks are copied from the
 named source; `NOTICE.md` holds the licences.
 
@@ -45,8 +46,9 @@ Answer each with pass, fail or cannot tell, and the shot it shows in.
 
 **Honesty.** Each of these is a blocking defect:
 
-- A rating, review, quote, count, countdown, stock line, badge or struck-through price with no
-  visible source.
+- A rating, review, quote, countdown, stock line, badge, struck-through price, or a count of
+  buyers, sales or viewers, with no visible source. A specification is not proof: how many items
+  a unit holds, a size or a material needs no source on the page.
 - A placeholder marker, filler text or a labelled placeholder image in a storefront shot. The
   builder's draft copy is expected: judge whether it fits its slot, not its wording.
 - A rendered or generated image presented as the real product, its contents or its packaging.
@@ -71,6 +73,9 @@ Answer each with pass, fail or cannot tell, and the shot it shows in.
 >   ship with browser defaults that belong to no design system. Theme them from the palette.
 >
 > — Impeccable `reference/craft-floor.md`, Apache-2.0 (selected lines, some shortened)
+
+The numbers above are a floor for a page with no brand behind it. Where a brand token differs
+(a tighter heading tracking, a longer measure), the token is right and is not a defect.
 
 Also: no sideways scroll on the phone; tap targets at least 44 px; nothing under the sticky header
 or the phone's bottom bar; a cutout sits on its ground, not pasted over it. The page's language is set
