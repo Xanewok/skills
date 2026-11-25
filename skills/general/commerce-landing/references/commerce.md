@@ -24,7 +24,13 @@ and do not build the page so that it implies an answer:
 - **What a sign-up sends.** The form may promise only what the shop will actually send. A launch
   notice and ongoing marketing are two purposes; the second needs its own consent.
 
-Until answered, each is a marked placeholder that cannot reach the live page.
+Until answered, each is a marked placeholder that cannot reach the live page: not live text, not
+a setting's default, not a line softened into a hint or a "secret".
+
+An answer is the merchant's own sentence saying that this claim may appear on this page. Quote it
+in the hand-off. None of these is an answer: the merchant describing how the thing works, a note
+in a brief or a feedback file, a line on an earlier page, or your reading of what they would want.
+If you cannot quote the sentence, you do not have it.
 
 ## Proof
 

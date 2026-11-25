@@ -53,6 +53,10 @@ Answer each with pass, fail or cannot tell, and the shot it shows in.
   builder's draft copy is expected: judge whether it fits its slot, not its wording.
 - A rendered or generated image presented as the real product, its contents or its packaging.
 - A picture or a line promising something the page does not offer.
+- A claim from the stop list in `commerce.md` (a value, a reduction, luck or a bonus for some
+  buyers, a return rule, a delivery promise, what a sign-up sends) with no approving sentence from
+  the merchant supplied to you. You cannot tell whether it is approved, and that is the defect:
+  list it here, not under "could not check".
 
 **Tells.** Every entry in `tells.md` that appears. Anything the project bans is blocking.
 

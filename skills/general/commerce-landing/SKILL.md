@@ -156,9 +156,14 @@ A model critic finds defects reliably: overlap, clipped text, weak contrast, a m
 tell. It does not rank taste reliably. Taste calls, and any disagreement with the critic you do not
 act on, go to a person with the shots.
 
+An honesty finding is not yours to overrule. When the critic blocks a claim, or cannot tell whether
+one is true or approved, take the claim off the page or get the answer from a person. Never report
+an approval you cannot quote.
+
 ## 6. Hand off
 
 Report: the direction and what you changed after comparing with the default; every placeholder
-left; every generated image and what it illustrates; every third-party asset with its source and
+left; every claim on the page from the stop list in `references/commerce.md`, with the sentence
+that approved it; every generated image and what it illustrates; every third-party asset with its source and
 rights; the critic's findings you did not fix; and what you did not verify (a real phone, an
 in-app browser, a page state).
