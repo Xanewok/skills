@@ -15,6 +15,7 @@ markdown body that the agent loads when the description matches the task. The fo
 |---|---|
 | `adversarial-pass` | Red-team a decision about to lock: independent critics with different lenses and model families, keeping only the holes that survive |
 | `cli-ux` | Design, change or review a CLI's flags, environment variables, config keys, defaults, prompts, errors and exit codes, and audit an existing tool against the same rules |
+| `commerce-landing` | Design, build or review a landing or campaign page that sells a product: a direction made for the brand and offer, honest commerce claims, restrained motion, and a screenshot loop with a separate critic |
 | `context-economy` | Keep the per-turn context window small on long sessions, where latency grows with the window: delegate and hand off rather than rely on the cache |
 | `divergence-sweep` | Generate genuinely different options by fanning out agents under distant frames, then pick the remote-but-apt ones |
 | `first-principles-review` | Review a PR by stating its contract and rebuilding it from scratch before reading the diff, then comparing the two |
@@ -54,4 +55,7 @@ overwrite the other.
 - `skills/vendored/asd-ste100/`: MIT, © 2026 Dustin Yuchen Teng, from
   [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill). Its `LICENSE` is
   kept verbatim in that directory.
+- `skills/general/commerce-landing/`: MIT, except the passages it quotes from third-party skills
+  under Apache-2.0, MIT and CC BY 4.0. Each is marked where it appears, and the directory's
+  `NOTICE.md` lists the sources and their terms.
 - Everything else (`skills/general/`, `bin/` and these documents): MIT, see `LICENSE`.
