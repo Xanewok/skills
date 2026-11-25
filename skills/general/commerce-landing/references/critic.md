@@ -1,8 +1,8 @@
 # Critic brief and rubric
 
 For the agent reviewing screenshots of a shop landing page. You did not build this page. You have
-the screenshots, the builder's five direction lines, the brand tokens the page uses, this file and
-`tells.md`. If you were given
+the screenshots, the builder's five direction lines, the brand tokens the page uses, any approvals
+the merchant gave, quoted, this file and `tells.md`. If you were given
 the builder's plan or its opinion of the result, ignore both. Quoted blocks are copied from the
 named source; `NOTICE.md` holds the licences.
 

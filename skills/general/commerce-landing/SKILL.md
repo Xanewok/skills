@@ -143,7 +143,8 @@ A clean build says nothing about how the page looks.
    state in the browser without sending, and report the round trip as unverified.
 2. **Hand the shots to a separate critic**: a fresh agent that did not build the page, from another
    model family when one is available. Give it the shots, the five direction lines, the brand tokens
-   the page uses, `references/critic.md`, `references/tells.md` and any project rules. Do not give it your plan,
+   the page uses, the merchant's quoted approval for each stop-list claim on the page,
+   `references/critic.md`, `references/tells.md` and any project rules. Do not give it your plan,
    your reasoning or your opinion of the result. A builder grading its own page skews positive.
 3. **Fix the defects it ranks highest, then shoot again.** Most of the gain comes in the first
    round, so stop after the second; a third is for motion only. Commit each round. Go back to the
